@@ -1,53 +1,53 @@
-# Next.js & NextUI Template
+```md
+# 🍏 Apple Books Styled Website
 
-This is a template for creating applications using Next.js 14 (app directory) and NextUI (v2).
+Check it online: https://next-book-eight.vercel.app/
 
-[Try it on CodeSandbox](https://githubbox.com/nextui-org/next-app-template)
+Welcome to the **Apple Books Liked** project! This is a ready page like the:
+[Apple Books page](https://www.apple.com/apple-books/) built using **Next.js**, **NextUI**, and **Tailwind CSS**. 🚀
 
-## Technologies Used
+## ✨ Features
 
-- [Next.js 14](https://nextjs.org/docs/getting-started)
-- [NextUI v2](https://nextui.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [next-themes](https://github.com/pacocoursey/next-themes)
+- 📖 **Similar** of the Apple Books page
+- 🌑 **Dark & Light mode** support
+- 📱 Fully **responsive design** for mobile, tablet, and desktop
+- 🎨 Beautiful, clean UI using **NextUI** and **Tailwind CSS**
+- 🖼️ **Parallax image slider** using react-scroll-parallax for a Beautiful experience
+- 🖼️ **Books image slider** using Swiper.js for a dynamic experience
 
-## How to Use
+## 🛠️ Tech Stack
 
-### Use the template with create-next-app
+- **Next.js 14** for a fast, server-rendered React application
+- **NextUI** for accessible and customizable UI components
+- **Tailwind CSS** for flexible, utility-first styling
+- **TypeScript** for type safety
 
-To create a new project based on this template using `create-next-app`, run the following command:
+## 🚀 Getting Started
 
-```bash
-npx create-next-app -e https://github.com/nextui-org/next-app-template
+1. **Clone the repo**:
+   ```bash
+   git clone https://github.com/Steve-sy/next-book.git
+   ```
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+3. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
+
+   Open [http://localhost:3000](http://localhost:3000) to see the project in action. 🎉
+
+## 🎨 Customization
+
+Feel free to fork this project and customize it however you like! You can change the images, colors, and components to suit your needs. 💻✨
+
+## 💡 Fork & Use
+
+This project is **free to use**! Fork it, improve it, and make it your own. Contributions are welcome! 🙌
+
+## 📄 License
+
+This project is open-source under the **MIT License**. 📝
 ```
-
-### Install dependencies
-
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
-
-```bash
-npm install
-```
-
-### Run the development server
-
-```bash
-npm run dev
-```
-
-### Setup pnpm (optional)
-
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
-
-```bash
-public-hoist-pattern[]=*@nextui-org/*
-```
-
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
-
-## License
-
-Licensed under the [MIT license](https://github.com/nextui-org/next-app-template/blob/main/LICENSE).
